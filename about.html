@@ -1,0 +1,448 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>درباره ما | فروشگاه استیچ (STITCH)</title>
+    <meta name="description" content="داستان شکل‌گیری برند استیچ، تعهد به کیفیت، اصالت کالا و فلسفه سفارش مستقیم و انسانی از طریق تلگرام." />
+    <meta property="og:title" content="درباره ما | فروشگاه استیچ (STITCH)" />
+    <meta property="og:description" content="داستان شکل‌گیری برند استیچ، تعهد به کیفیت، اصالت کالا و فلسفه سفارش مستقیم و انسانی از طریق تلگرام." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <!-- Pure Static CSS & Fonts - No Build Step Required -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <!-- Background Ambient Radial Glows -->
+    <div class="ambient-glow ambient-glow-1"></div>
+    <div class="ambient-glow ambient-glow-2"></div>
+    <div class="ambient-glow ambient-glow-3"></div>
+
+    <!-- Header & Navigation -->
+    <header class="site-header" id="site-header">
+      <div class="container nav-container">
+        <!-- Logo -->
+        <a href="index.html" class="brand-logo" id="header-brand-logo">
+          <div class="logo-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+              <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+              <polyline points="2 17 12 22 22 17"></polyline>
+              <polyline points="2 12 12 17 22 12"></polyline>
+            </svg>
+          </div>
+          <div class="logo-text">
+            <span class="logo-title">استیچ | STITCH</span>
+            <span class="logo-sub">طراحی مدرن • سفارش تلگرام</span>
+          </div>
+        </a>
+
+        <!-- Desktop Navigation Links -->
+        <nav class="desktop-nav" aria-label="منوی اصلی">
+          <ul class="nav-links">
+            <li><a href="index.html" class="nav-link" id="nav-link-home">صفحه اصلی</a></li>
+            <li><a href="products.html" class="nav-link" id="nav-link-products">محصولات و فروشگاه</a></li>
+            <li><a href="about.html" class="nav-link active" id="nav-link-about">درباره ما</a></li>
+            <li><a href="contact.html" class="nav-link" id="nav-link-contact">تماس با ما</a></li>
+          </ul>
+        </nav>
+
+        <!-- Nav Action Buttons -->
+        <div class="nav-actions">
+          <!-- Dark/Light Theme Toggle -->
+          <button class="btn btn-glass btn-icon theme-toggle-btn" id="btn-theme-toggle" aria-label="تغییر تم رنگی" title="تغییر تم">
+            <svg class="icon-sun" width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="5"></circle>
+              <line x1="12" y1="1" x2="12" y2="3"></line>
+              <line x1="12" y1="21" x2="12" y2="23"></line>
+              <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+              <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+              <line x1="1" y1="12" x2="3" y2="12"></line>
+              <line x1="21" y1="12" x2="23" y2="12"></line>
+              <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+              <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+            </svg>
+            <svg class="icon-moon" width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="display: none;">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+          </button>
+
+          <!-- Cart Trigger -->
+          <button class="btn btn-glass btn-icon cart-btn open-cart-btn" id="btn-open-cart" aria-label="سبد خرید" title="مشاهده سبد خرید">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+              <line x1="3" y1="6" x2="21" y2="6"></line>
+              <path d="M16 10a4 4 0 0 1-8 0"></path>
+            </svg>
+            <span class="cart-count-badge" style="display: none;">۰</span>
+          </button>
+
+          <!-- Quick Telegram Chat Button -->
+          <a href="https://t.me/StitchSupport_Admin" target="_blank" rel="noopener noreferrer" class="btn btn-telegram btn-sm" id="btn-nav-telegram">
+            <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="22" y1="2" x2="11" y2="13"></line>
+              <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+            </svg>
+            <span>پشتیبانی تلگرام</span>
+          </a>
+
+          <!-- Mobile Hamburger Toggle -->
+          <button class="btn btn-glass btn-icon mobile-menu-toggle" id="btn-mobile-menu" aria-label="منوی موبایل">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="3" y1="12" x2="21" y2="12"></line>
+              <line x1="3" y1="6" x2="21" y2="6"></line>
+              <line x1="3" y1="18" x2="21" y2="18"></line>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Mobile Drawer Overlay & Menu -->
+    <div class="mobile-drawer-overlay" id="mobile-drawer-overlay"></div>
+    <aside class="mobile-drawer" id="mobile-drawer">
+      <div>
+        <div style="display: flex; align-items: center; justify-content: space-between;">
+          <div class="brand-logo">
+            <div class="logo-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+                <polyline points="2 17 12 22 22 17"></polyline>
+              </svg>
+            </div>
+            <span style="font-size: 1.1rem; font-weight: 800;">استیچ | STITCH</span>
+          </div>
+          <button class="btn-sm mobile-drawer-close" style="background: none; border: none; color: var(--text-muted); cursor: pointer;" aria-label="بستن منو">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="18" y1="6" x2="6" y2="18"></line>
+              <line x1="6" y1="6" x2="18" y2="18"></line>
+            </svg>
+          </button>
+        </div>
+
+        <ul class="mobile-drawer-links">
+          <li><a href="index.html" class="mobile-drawer-link">صفحه اصلی</a></li>
+          <li><a href="products.html" class="mobile-drawer-link">کاتالوگ و محصولات</a></li>
+          <li><a href="about.html" class="mobile-drawer-link active">درباره برند ما</a></li>
+          <li><a href="contact.html" class="mobile-drawer-link">ارتباط و پشتیبانی</a></li>
+        </ul>
+      </div>
+
+      <div style="display: flex; flex-direction: column; gap: 0.75rem; border-top: 1px solid var(--border-glass); padding-top: 1.5rem;">
+        <button class="btn btn-primary open-cart-btn" style="width: 100%;">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path></svg>
+          مشاهده سبد خرید
+        </button>
+        <a href="https://t.me/StitchSupport_Admin" target="_blank" class="btn btn-telegram" style="width: 100%;">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+          سفارش مستقیم در تلگرام
+        </a>
+      </div>
+    </aside>
+
+    <!-- About Hero Section -->
+    <section class="section" style="padding-bottom: 3rem;">
+      <div class="container">
+        <div class="hero-grid">
+          <div>
+            <span class="badge badge-primary section-tag" style="margin-bottom: 1rem;">داستان و هویت برند</span>
+            <h1 style="font-size: 2.7rem; margin-bottom: 1.25rem;">
+              استیچ؛ تعهد به <span class="text-gradient">ظرافت، اصالت و شفافیت</span>
+            </h1>
+            <p style="font-size: 1.08rem; line-height: 1.85; margin-bottom: 1.5rem; color: var(--text-secondary);">
+              ما در استیچ بر این باوریم که خرید یک کالای ارزشمند تنها فشردن یک دکمه پرداخت نیست؛ بلکه آغاز یک رابطه اعتمادآمیز است. استیچ در سال ۱۳۹۹ با هدف ارائه کالکشن‌های دست‌چین شده از مرغوب‌ترین گجت‌ها و اکسسوری‌های مدرن شکل گرفت.
+            </p>
+            <p style="font-size: 1rem; line-height: 1.8; color: var(--text-muted); margin-bottom: 2rem;">
+              برای رهایی از سامانه‌های خشک، پیامک‌های تبلیغاتی مکرر و خطاهای درگاه بانکی، ساختار سفارش‌گیری خود را به بستر محبوب، سریع و امن تلگرام منتقل کردیم تا هر مشتری پیش از پرداخت بتواند مستقیماً با کارشناس انسانی گفتگو کرده و تصاویر دقیق کالای مورد نظرش را بررسی کند.
+            </p>
+            <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+              <a href="products.html" class="btn btn-primary btn-lg">مشاهده کالکشن محصولات</a>
+              <a href="https://t.me/StitchSupport_Admin" target="_blank" class="btn btn-telegram btn-lg">ارتباط مستقیم با مدیر فروش</a>
+            </div>
+          </div>
+
+          <div>
+            <div class="glass-card" style="padding: 1.5rem;">
+              <img src="https://images.unsplash.com/photo-1524805444758-089113d48a6d?auto=format&fit=crop&w=800&q=80" alt="ساعت مکانیکی استیچ" style="border-radius: var(--radius-lg); aspect-ratio: 4/3.2; object-fit: cover; width: 100%;" />
+              <div style="margin-top: 1.25rem; display: flex; justify-content: space-between; align-items: center;">
+                <div>
+                  <div style="font-weight: 700; font-size: 1.05rem;">صداقت در کیفیت، دقت در جزئیات</div>
+                  <div style="font-size: 0.85rem; color: var(--text-muted);">تمامی سفارشات پیش از ارسال آزمایش کیفی می‌شوند</div>
+                </div>
+                <span class="badge badge-emerald">ضمانت ۱۰۰٪</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why Telegram Concierge Shopping? -->
+    <section class="section" style="padding-top: 2rem;">
+      <div class="container">
+        <div class="section-header">
+          <span class="badge badge-telegram section-tag">چرا تلگرام؟</span>
+          <h2>تجربه خرید محاوره‌ای و لذت‌بخش</h2>
+          <p>تفاوت بنیادین خرید از استیچ با فروشگاه‌های سنتی وب</p>
+        </div>
+
+        <div class="features-grid">
+          <div class="glass-card" style="padding: 2rem;">
+            <div class="feature-icon-wrapper" style="margin-bottom: 1rem;">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+            </div>
+            <h3 style="margin-bottom: 0.5rem;">بدون رمز عبور و ثبت‌نام</h3>
+            <p style="font-size: 0.9rem; line-height: 1.7; color: var(--text-muted);">
+              نیازی به پر کردن فرم‌های طولانی، فراموش کردن رمز ورود یا منتظر ماندن برای پیامک‌های تایید نیست.
+            </p>
+          </div>
+
+          <div class="glass-card" style="padding: 2rem;">
+            <div class="feature-icon-wrapper" style="margin-bottom: 1rem;">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="23 7 16 12 23 17 23 7"></polygon><rect x="1" y="5" width="15" height="14" rx="2" ry="2"></rect></svg>
+            </div>
+            <h3 style="margin-bottom: 0.5rem;">ویدیو و عکس واقعی کالا</h3>
+            <p style="font-size: 0.9rem; line-height: 1.7; color: var(--text-muted);">
+              در چت تلگرام می‌توانید ویدیوی بررسی زنده و تست عملکرد قطعه را قبل از ارسال از کارشناس ما درخواست کنید.
+            </p>
+          </div>
+
+          <div class="glass-card" style="padding: 2rem;">
+            <div class="feature-icon-wrapper" style="margin-bottom: 1rem;">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 14 14"></polyline></svg>
+            </div>
+            <h3 style="margin-bottom: 0.5rem;">پیگیری آنی در تلگرام</h3>
+            <p style="font-size: 0.9rem; line-height: 1.7; color: var(--text-muted);">
+              عکس قبض پست پیشتاز یا شماره بارنامه تیپاکس مستقیماً در همان گفتگو برای شما ارسال می‌شود.
+            </p>
+          </div>
+
+          <div class="glass-card" style="padding: 2rem;">
+            <div class="feature-icon-wrapper" style="margin-bottom: 1rem;">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+            </div>
+            <h3 style="margin-bottom: 0.5rem;">مشاوره فنی تخصصی</h3>
+            <p style="font-size: 0.9rem; line-height: 1.7; color: var(--text-muted);">
+              به جای ربات‌های خودکار، مشاوران آشنا با جزئیات فنی آماده پاسخگویی به هر سوال پیش از خرید هستند.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Milestones Timeline (مسیر رشد ما) -->
+    <section class="section" style="padding-top: 2rem;">
+      <div class="container">
+        <div class="section-header">
+          <span class="badge badge-primary section-tag">گاه‌شمار استیچ</span>
+          <h2>مسیر رشد و افتخارات ما</h2>
+          <p>از آغاز تا به امروز، با همراهی و اعتماد شما گام برداشته‌ایم.</p>
+        </div>
+
+        <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 1.5rem;">
+          <div class="glass-card" style="padding: 2rem 1.5rem; border-top: 3px solid #6366f1;">
+            <div style="font-size: 1.8rem; font-weight: 800; color: #818cf8; margin-bottom: 0.5rem;">۱۳۹۹</div>
+            <h4 style="font-size: 1.1rem; margin-bottom: 0.5rem;">آغاز به کار استیچ</h4>
+            <p style="font-size: 0.88rem; color: var(--text-muted); line-height: 1.7;">
+              شروع به کار با تمرکز بر واردات محدود ساعت‌های مکانیکی خاص و اکسسوری‌های مینیمال برای عاشقان طراحی.
+            </p>
+          </div>
+
+          <div class="glass-card" style="padding: 2rem 1.5rem; border-top: 3px solid #06b6d4;">
+            <div style="font-size: 1.8rem; font-weight: 800; color: #22d3ee; margin-bottom: 0.5rem;">۱۴۰۱</div>
+            <h4 style="font-size: 1.1rem; margin-bottom: 0.5rem;">کانال اختصاصی تلگرام</h4>
+            <p style="font-size: 0.88rem; color: var(--text-muted); line-height: 1.7;">
+              افتتاح سیستم ثبت سفارش سریع تلگرامی و راه‌اندازی باشگاه اعضای وفادار با تخفیف‌های ویژه.
+            </p>
+          </div>
+
+          <div class="glass-card" style="padding: 2rem 1.5rem; border-top: 3px solid #10b981;">
+            <div style="font-size: 1.8rem; font-weight: 800; color: #34d399; margin-bottom: 0.5rem;">۱۴۰۳</div>
+            <h4 style="font-size: 1.1rem; margin-bottom: 0.5rem;">۱۰ هزارمین سفارش موفق</h4>
+            <p style="font-size: 0.88rem; color: var(--text-muted); line-height: 1.7;">
+              توسعه خط تولید اکسسوری‌های چرم دست‌دوز تبریز و گسترش گارانتی تعویض شرکتی.
+            </p>
+          </div>
+
+          <div class="glass-card" style="padding: 2rem 1.5rem; border-top: 3px solid #f43f5e;">
+            <div style="font-size: 1.8rem; font-weight: 800; color: #fb7185; margin-bottom: 0.5rem;">۱۴۰۵</div>
+            <h4 style="font-size: 1.1rem; margin-bottom: 0.5rem;">کالکشن نوین ۲۰۲۶</h4>
+            <p style="font-size: 0.88rem; color: var(--text-muted); line-height: 1.7;">
+              معرفی وب‌سایت مدرن با طراحی شیشه‌ای و ثبت آنی فاکتور تلگرام با پیشرفته‌ترین تکنولوژی‌های وب.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Meet The Team / اعضای تیم -->
+    <section class="section" style="padding-top: 2rem; padding-bottom: 5rem;">
+      <div class="container">
+        <div class="section-header">
+          <span class="badge badge-emerald section-tag">همراهان شما</span>
+          <h2>تیم متعهد و پشت‌صحنه استیچ</h2>
+          <p>افرادی که کیفیت تک‌تک سفارش‌ها و آرامش خاطر شما را تضمین می‌کنند.</p>
+        </div>
+
+        <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem;">
+          <div class="glass-card" style="padding: 2rem; text-align: center;">
+            <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=400&q=80" alt="سارا راد" style="width: 110px; height: 110px; border-radius: 50%; object-fit: cover; margin: 0 auto 1.25rem auto; border: 3px solid rgba(99, 102, 241, 0.4);" />
+            <h4 style="font-size: 1.2rem; margin-bottom: 0.35rem;">سارا راد</h4>
+            <div style="font-size: 0.85rem; color: #818cf8; font-weight: 600; margin-bottom: 0.75rem;">هم‌بنیان‌گذار و طراح محصول</div>
+            <p style="font-size: 0.88rem; color: var(--text-muted); line-height: 1.7;">
+              «زیبایی در سادگی است. هر محصول باید علاوه بر کارایی بالا، حسی از آرامش و اصالت را القا کند.»
+            </p>
+          </div>
+
+          <div class="glass-card" style="padding: 2rem; text-align: center;">
+            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=400&q=80" alt="امیرحسین نادری" style="width: 110px; height: 110px; border-radius: 50%; object-fit: cover; margin: 0 auto 1.25rem auto; border: 3px solid rgba(6, 182, 212, 0.4);" />
+            <h4 style="font-size: 1.2rem; margin-bottom: 0.35rem;">امیرحسین نادری</h4>
+            <div style="font-size: 0.85rem; color: #22d3ee; font-weight: 600; margin-bottom: 0.75rem;">سرپرست کنترل کیفیت و تامین کالا</div>
+            <p style="font-size: 0.88rem; color: var(--text-muted); line-height: 1.7;">
+              «هیچ بسته‌ای بدون بررسی سلامت فیزیکی و کارکرد سنسورها مهر تایید ارسال استیچ را دریافت نمی‌کند.»
+            </p>
+          </div>
+
+          <div class="glass-card" style="padding: 2rem; text-align: center;">
+            <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=400&q=80" alt="مهسا کیانی" style="width: 110px; height: 110px; border-radius: 50%; object-fit: cover; margin: 0 auto 1.25rem auto; border: 3px solid rgba(16, 185, 129, 0.4);" />
+            <h4 style="font-size: 1.2rem; margin-bottom: 0.35rem;">مهسا کیانی</h4>
+            <div style="font-size: 0.85rem; color: #34d399; font-weight: 600; margin-bottom: 0.75rem;">مدیر پشتیبانی و امور مشتریان تلگرام</div>
+            <p style="font-size: 0.88rem; color: var(--text-muted); line-height: 1.7;">
+              «هدف ما پاسخگویی با سرعت و محبت است؛ تا از اولین پیام تا دریافت بسته همراه شما باشیم.»
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-col">
+            <div class="brand-logo" style="margin-bottom: 1rem;">
+              <div class="logo-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+                  <polyline points="2 17 12 22 22 17"></polyline>
+                </svg>
+              </div>
+              <span class="logo-title">استیچ | STITCH</span>
+            </div>
+            <p style="font-size: 0.95rem; line-height: 1.8; margin-bottom: 1.5rem;">
+              فروشگاه مدرن آنلاین با فلسفه سادگی، کیفیت ممتاز و ارتباط بی‌واسطه. ما تمام فرآیند انتخاب تا تحویل را با پشتیبانی اختصاصی تلگرام شفاف کرده‌ایم.
+            </p>
+            <div style="display: flex; gap: 0.75rem;">
+              <a href="https://t.me/StitchSupport_Admin" target="_blank" class="btn btn-glass btn-icon" title="تلگرام">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+              </a>
+              <a href="contact.html" class="btn btn-glass btn-icon" title="تماس تلفنی">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+              </a>
+              <a href="contact.html" class="btn btn-glass btn-icon" title="ایمیل">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+              </a>
+            </div>
+          </div>
+
+          <div class="footer-col">
+            <h4>دسترسی سریع</h4>
+            <ul class="footer-links">
+              <li><a href="index.html">صفحه اصلی</a></li>
+              <li><a href="products.html">همه محصولات</a></li>
+              <li><a href="about.html">داستان برند استیچ</a></li>
+              <li><a href="contact.html">ارتباط و پشتیبانی</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4>خدمات مشتریان</h4>
+            <ul class="footer-links">
+              <li><a href="contact.html#faq">راهنمای سفارش در تلگرام</a></li>
+              <li><a href="contact.html#faq">شرایط ضمانت و بازگشت</a></li>
+              <li><a href="contact.html#faq">روش‌های ارسال و پیگیری</a></li>
+              <li><a href="about.html">گواهی اصالت کالاها</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-col">
+            <h4>تماس و سفارش</h4>
+            <p style="font-size: 0.9rem; margin-bottom: 0.5rem;">پشتیبانی تلگرام: @StitchSupport_Admin</p>
+            <p style="font-size: 0.9rem; margin-bottom: 0.5rem;">شماره تماس: ۰۲۱-۸۸۸۸۴۳۲۱</p>
+            <p style="font-size: 0.9rem; margin-bottom: 1rem;">ساعت پاسخگویی: ۹:۰۰ الی ۲۳:۰۰</p>
+            <a href="https://t.me/StitchSupport_Admin" target="_blank" class="btn btn-telegram btn-sm" style="width: 100%;">
+              ارسال پیام مستقیم به ادمین
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <div>تمام حقوق برای برند «استیچ | STITCH» محفوظ است © ۱۴۰۵</div>
+          <div style="display: flex; gap: 1rem;">
+            <span>طراحی آماده استقرار روی GitHub Pages</span>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Floating Telegram Support Button -->
+    <a href="https://t.me/StitchSupport_Admin" target="_blank" rel="noopener noreferrer" class="floating-telegram-support" id="btn-floating-telegram" title="پشتیبانی مستقیم تلگرام">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <line x1="22" y1="2" x2="11" y2="13"></line>
+        <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+      </svg>
+      <span>سفارش در تلگرام</span>
+    </a>
+
+    <!-- Cart Drawer Modal -->
+    <div class="cart-drawer-overlay" id="cart-drawer-overlay" style="position: fixed; inset: 0; background: rgba(0,0,0,0.6); backdrop-filter: blur(4px); z-index: 240; opacity: 0; visibility: hidden; transition: all 0.3s ease;"></div>
+    <aside class="cart-drawer" id="cart-drawer" aria-label="سبد خرید شما">
+      <div class="cart-drawer-header">
+        <div style="display: flex; align-items: center; gap: 0.65rem;">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path></svg>
+          <h3 style="font-size: 1.2rem;">سبد خرید</h3>
+        </div>
+        <button class="cart-drawer-close" style="background: none; border: none; color: var(--text-muted); cursor: pointer;" aria-label="بستن سبد خرید">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+        </button>
+      </div>
+
+      <div class="cart-items-list" id="cart-items-list">
+        <!-- Injected by main.js -->
+      </div>
+
+      <div id="cart-empty-message" style="text-align: center; padding: 3rem 1rem; color: var(--text-muted); display: none;">
+        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" style="margin: 0 auto 1rem auto; opacity: 0.6;"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path></svg>
+        <p style="font-weight: 600; margin-bottom: 0.5rem;">سبد خرید شما خالی است</p>
+        <p style="font-size: 0.85rem;">محصولات دلخواه خود را به سبد اضافه کنید.</p>
+      </div>
+
+      <div class="cart-drawer-footer">
+        <div class="cart-subtotal-row">
+          <span>مبلغ کل سبد:</span>
+          <span id="cart-drawer-subtotal" style="color: #818cf8;">۰ تومان</span>
+        </div>
+        <button class="btn btn-telegram" id="btn-cart-checkout-telegram" style="width: 100%;">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+          ثبت کل سفارش در تلگرام
+        </button>
+      </div>
+    </aside>
+
+    <!-- Instant Telegram Order Modal -->
+    <div class="modal-overlay" id="modal-telegram-order">
+      <div class="modal-container" style="max-width: 540px; padding: 2rem;">
+        <button class="modal-close-btn" aria-label="بستن پنجره">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+        </button>
+        <div id="telegram-order-modal-body">
+          <!-- Injected dynamically -->
+        </div>
+      </div>
+    </div>
+
+    <!-- Core Scripts -->
+    <script src="./assets/js/products-data.js"></script>
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
